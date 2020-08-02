@@ -1,1 +1,263 @@
 
+body{margin: 20px;
+    position: relative;
+    width:1440px;
+height: 5004px;
+    background-color:white;
+}
+ li a{
+    display: inline ;
+    text-align: center;
+   text-decoration: none;  
+   color: #585858;
+   font-style: normal;
+font-weight: normal;
+font-size: 14px;
+font-family: "SF UI Display", sans-serif;
+letter-spacing: 0.5px;
+flex-direction: row;
+padding: 0px;
+width: 507px;
+height: 48px;
+left: 148px;
+top: 24px;
+}
+nav{
+    position: absolute;
+width: 1440px;
+
+left: 0px;
+top: 0px;
+}
+#nav-bar{
+    width:100%;
+    overflow:auto;
+    color:rgba(45,45,45,0.19);
+}
+#nav-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 40px;
+}
+#nav-bar li{
+    float: left;
+    padding: 10px;
+ }
+.nav-bar li a:hover{
+    color: black;
+    opacity: 0.5;
+    font-size: 15px;
+}
+#hero{
+   height:50%; 
+   background-position:right ;
+   position:relative ;}
+   
+   .hero-image{
+ float:right;
+    size:300px;
+  height:100px;
+    width:50px;
+margin-left:5px;
+    align:right;
+  flex-direction:row;
+    display:inline block  ;
+    padding:5px;
+     border-radius:8px;
+    border:1px solid #ddd;
+  margin-right:auto;
+}
+
+.hero-text{
+    font-size:15px;
+    font-weight:20;
+    text-align:left;
+    word-wrap:
+    position:absolute ;
+padding:30px;
+}
+blockquote{
+    float:right ;
+    margin-bottom:10px;
+}
+.word{
+    
+    wrap-word:break-all ;
+    float:left;}
+ h1 span{
+    color:#F2AA4C;
+    font-weight:300px;
+}
+span{
+    color:#F2AA4C;
+}
+a :hover{
+    color:#00F;
+    size:150px;
+    height:200px;
+    width:50%;
+    border-radius:8px;
+    border:1px solid #ddd;
+    margin-left:auto;
+    margin-left:auto;
+    display:block ;
+    padding:30px;
+    float:right ;
+}
+  h1{
+    /* Build Your Dream House */
+
+
+position: right;
+
+left: 1px;
+top: 100px;
+
+font-family: New York Extra Large;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 100%;
+/* or 112px */
+
+letter-spacing: -0.04em;
+} 
+div container{
+    float:left;
+    margin:33 %;
+    padding:8px 10px;
+    height:50;
+    width:20;
+}
+
+div hero-text{
+border:1px solid white;
+margin-top:80px;
+margin-bottom:40px;
+margin-right:40px;
+margin-left:40px;
+    background-color:white;
+}
+.img{
+    height:100px;
+    width:80px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+    display:block ;
+    padding:8px;
+}
+.desc{
+    float:left;
+    height:70;
+    width:100%;
+    top:40;
+    margin:10px;
+    padding:5px;
+    position: relative ;
+
+top: 20px;
+display:flex;
+flex-direction:row;
+font-family: New York Extra Large;
+font-style: normal;
+font-weight: 50;
+font-size: 20px;
+line-height: 100%;
+/* or 60px */
+
+
+}
+
+
+.blueprint{
+position: absolute;
+width: 350px;
+height: 400px;
+left: 100px;
+top: 100px; 
+
+    
+}
+    .icon{
+        left:350px
+        top:100px;
+    }
+section cont{
+    flex-direction: row;
+padding: 0px;
+width: 507px;
+height: 100px;
+
+display: inline;
+    text-align: left;
+   text-decoration: none;  
+   color: #585858;
+   font-style: normal;
+font-weight: normal;
+font-size:14px;
+font-family: "SF UI Display", sans-serif;
+letter-spacing: 0.5px;
+}
+
+#contact{
+    border:0
+     width:100px;
+    height:50px;
+}
+section{
+    width:100%;
+    overflow:auto;
+    margin:20px;
+    
+}
+.map{
+    position:relative ;
+    top:0;
+    left:0;
+    height:100px;
+    width:80px;
+}
+.field{
+    position:absolute ;
+    top:60;
+    left:80;
+    height:80px;
+    width:50px;
+}
+.partners{
+    box-sizing:border-box ;
+    flex-direction:row;
+    display:inline ;
+    padding:5px;
+    text-align:center ;
+}
+#partners ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   line-height:none;
+}
+#partners li{
+    float: left;
+    padding: 10px;
+ }
+.partners li a:hover{
+    color: black;
+    opacity: 0.5;
+    font-size: 15px;
+}
+button{
+    padding: 4px 24px;
+background: #F2AA4C;
+border-radius: 4px;
+
+
+float: lef;
+cursor: pointer;
+border: none;
+margin-top:1px;
+
+}
